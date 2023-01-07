@@ -1,0 +1,21 @@
+#main-nav .container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0.1rem;
+}
+#main-nav .logo,
+#main-nav ul {
+  display: flex;
+  justify-self: center;
+}
+#showcase .showcase-container {
+  display: flex;
+}
+#home-articles .articles-container,
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child,
+#main-footer .footer-container,
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
